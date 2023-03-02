@@ -9,7 +9,7 @@ const getUsers = () => {
 
 // Filters users by specific ID
 const getUser = id => {
-    return users.find(user => user.id === id)
+    return getUsers().find(user => user.id === id).username;
 }
 
 

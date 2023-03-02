@@ -1,4 +1,4 @@
-const { default: expect } = require('expect');
+const { sum,substract,multiply,divide,power} = require('../calculator');
 
 const calculator = require('../calculator');
 // //test('adds 1 + 2 to equal 3', () => {
@@ -21,6 +21,6 @@ test('divides a / b', () => {
 })
 
 test('Raises to power a ^ b', () => {
-    expect(power(5, 5)).toBe(25);
+    expect(power(5, 2)).toBe(25);
 })
 
